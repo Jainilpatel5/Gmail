@@ -1,0 +1,320 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    
+    <!--Google Font Icons-->    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles.css" >
+    <title>Gmail clone</title>
+</head>
+<body>
+    <!-- Header Starts -->
+    <div class="header">
+        <div class="header__left">
+            <span class="material-icons"> menu
+                </span>
+                <img src="Google icon.jpeg" alt="">
+        </div>
+
+        <div class="header__middle">
+            <span class="material-icons"> search
+                </span>
+            <input type="text" placeholder="Search mail">
+            <span class="material-icons">arrow_drop_down
+                </span>
+        </div>
+
+        <div class="header__right">
+            <span class="material-icons"> apps
+                 </span>
+            <span class="material-icons"> help
+                 </span>
+            <span class="material-icons"> settings
+                 </span>
+            <span class="material-icons"> account_circle
+                 </span> 
+                        
+                       
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Mani Body Starts -->
+    <div class="main__body">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+            <button class="sidebar__compose">
+                <span class="material-icons">edit
+                    </span>
+                Compose
+            </button>
+            <div class="sidebarOption sidebarOption__active">
+                <span class="material-icons">inbox
+                    </span>
+                    <h3>Inbox</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">star
+                    </span>
+                    <h3>starred</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">access_time
+                    </span>
+                    <h3>Snoozed</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">label_important
+                    </span>
+                    <h3>Important</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">near_me
+                    </span>
+                    <h3>Sent</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">note
+                    </span>
+                    <h3>Drafts</h3>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">expand_more
+                    </span>
+                    <h3>More</h3>
+            </div>
+
+            <!-- <div class="sidebar__footer">
+                <div class="sidebar__footerIcons">
+                </div>
+            </div> -->
+        </div>
+        <!-- Sidebar Ends -->
+
+        <!-- Email List Starts -->
+        <div class="emaillist">
+            <!-- settings Starts -->
+            <div class="emaillist__setting">
+                <div class="emaillist__settingleft">
+                    <input type="checkbox">
+                    <span class="material-icons">arrow_drop_down
+                    </span>
+                    <span class="material-icons">refresh
+                    </span>
+                    <span class="material-icons">more_vert
+                    </span>
+                </div>
+
+                <div class="emaillist__settingright">
+                    <span class="material-icons">chevron_left
+                    </span>
+                    <span class="material-icons">chevron_right
+                    </span>
+                </div>
+            </div>
+            <!-- settings Ends -->
+
+            <!-- Section Starts -->
+            <div class="emaillist__section">
+                <div class="section section__selected">
+                    <span class="material-icons">inbox
+                    </span>
+                    <h4>Primary</h4>
+                </div>
+
+                <div class="section section__selected">
+                    <span class="material-icons">people
+                    </span>
+                    <h4>Social</h4>
+                </div>
+
+                <div class="section section__selected">
+                    <span class="material-icons">local_offer
+                    </span>
+                    <h4>Promotions</h4>
+                </div>
+            </div>
+            <!-- Section Ends -->
+
+            <!-- Email List Row Starts -->
+            <div class="emaillist__list">
+                <!-- Email Row Starts -->
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Amazon</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your order is delivered <span class="emailRow__description">. On you Address-...</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">7:33am</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Amazon</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your order is delivered <span class="emailRow__description">. On you Address-...</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">10pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Amazon</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your order is delivered <span class="emailRow__description">. On you Address-...</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">11am</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">LinkedIn</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Now hiring<span class="emailRow__description">. "Software engineer"</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">1:24pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Amazon</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your order is delivered <span class="emailRow__description">. On you Address-...</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">3pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Google</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your Gmail is out of storage<span class="emailRow__description">. Clean up some space</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">9:57pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Freelancer.com</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Exciting Opportunity...<span class="emailRow__description">. Check it now</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">11pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Zomato</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Get "50% off" on your order<span class="emailRow__description">. Place your order now</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">10:53am</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Spotify</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Your playlist is ready<span class="emailRow__description">. Listen now</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">5:21pm</p>
+                </div>
+
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons">star_border
+                        </span>
+                        <span class="material-icons">label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Instagram</h3>
+
+                    <div class="emailRow__message">
+                        <h4>@.. Started following you <span class="emailRow__description">. Jainil patel</span></h4>
+                    </div>
+
+                    <p class="emailRow__time">8pm</p>
+                </div>
+                <!-- Email row Ends -->
+            </div>
+            <!-- Email List Row Ends -->
+        </div>
+        <!-- Email List Ends -->
+        </div>
+    <!-- Main Body Ends -->
+    </body> 
+</html> 

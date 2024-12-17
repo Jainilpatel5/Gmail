@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header__left img{
+    object-fit: contain;
+    height: 40;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    background-color: white;
+}
+
+.header__left{
+    display:flex;
+    align-items: center;
+    background-color: white;
+}
+
+.header__left span{
+    padding: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.header__middle{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__middle input{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header__right{
+    display: flex;
+    padding-right: 20px;
+}
+
+.header__right span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sidebar__compose{
+   margin-top: 15px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+   text-transform: capitalize;
+   color: gray;
+   padding: 10px;
+   border-radius: 30px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   /* outline: none;
+   border: none; */
+   box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75); 
+}
+
+.sidebar__compose span{
+    margin-right: 10px;
+}
+
+.sidebarOption{
+   display: flex;
+   align-items: center;
+   height: 40px;
+   padding: 0 10px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   cursor: pointer;
+   color: #494242;
+}
+
+.sidebarOption .material-icons{
+    padding: 7px;
+}
+
+.sidebarOption h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover h3,
+.sidebarOption:hover .material-icons,
+.sidebar__compose
+/* .sidebarOption__active,
+.sidebarOption__active h3,
+.sidebarOption__active .material-icons */{
+    background-color: #d0e3eb;
+    color: #0c3636;
+    font-weight:800
+}
+
+.sidebar__footer{
+    display: flex;
+    justify-content: left;
+} */
+
+.sidebar__footer .material-icons{
+    margin: 7px;
+    cursor: pointer;
+    color: #494242;
+}
+
+/* main body */
+.main__body{
+    display: flex;
+    height: 100vh;
+}
+
+.body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* email list */
+.emaillist{
+    flex: 1;
+    overflow: scroll;
+}
+
+.emaillist__setting{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding: 8px;
+}
+
+.emaillist__settingleft{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.emaillist__settingright{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 10px;
+    min-width: 200px;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+    border-width: 0;
+}
+
+.emaillist__section{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}
+
+.section__selected{
+    border-width: 3px;
+    color: gray;
+    border-bottom: 0px solid blue;
+}
+
+.section__selected .material-icons{
+    color: rgb(50, 50, 163);
+}
+
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 3px;
+}
+
+.section h4{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.emailRow__options{
+    display: flex;
+    align-items: center;
+}
+
+.emailRow__options .material-icons,input{
+    margin: 5px;
+}
+
+.emailRow{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.emailRow:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+.emailRow__message h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.emailRow__title{
+    font-size: 15px;
+    flex: 0.3;
+    font-style: normal;
+}
+
+.emailRow__time{
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.emailRow__description{
+    
+    font-weight: 400;
+    color: gray;
+}
